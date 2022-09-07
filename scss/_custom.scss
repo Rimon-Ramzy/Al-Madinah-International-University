@@ -1,0 +1,28 @@
+// Variables
+@import './components/variables';
+
+// CONTAINER
+$container-max-widths: (
+     sm: 540px,
+     md: 720px,
+     lg: 1110px,
+     xl: 1380px,
+     xxl: 1650px
+);
+
+// BREAKPOINTS
+$grid-breakpoints: (
+     xs: 0,
+     sm: 576px,
+     md: 768px,
+     lg: 992px,
+     xl: 1200px,
+     xxl: 1500px
+);
+
+
+// IMPORT BOOTSRTAP 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// IMPORT SWIPER CSS
+@import './swiper-bundle.min.css';
